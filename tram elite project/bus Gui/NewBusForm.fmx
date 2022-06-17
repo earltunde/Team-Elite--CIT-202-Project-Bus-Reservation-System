@@ -1,0 +1,144 @@
+object MyNewBusForm: TMyNewBusForm
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object NumLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 84.000000000000000000
+    Size.Width = 148.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Enter Bus Number:'
+    TabOrder = 0
+    object NameLabel: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.Y = 33.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      Text = 'Enter Driver'#39's Name :'
+      TabOrder = 3
+    end
+  end
+  object DtimeLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 185.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Departure Time :'
+    TabOrder = 7
+  end
+  object AtimeLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 153.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Arrival Time :'
+    TabOrder = 3
+  end
+  object FromLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 217.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'From:'
+    TabOrder = 6
+  end
+  object ToLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 249.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'To:'
+    TabOrder = 5
+  end
+  object successLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 377.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TabOrder = 4
+  end
+  object AtimeEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    Position.X = 205.000000000000000000
+    Position.Y = 155.000000000000000000
+  end
+  object FromEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 9
+    Position.X = 157.000000000000000000
+    Position.Y = 219.000000000000000000
+  end
+  object DtimeEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 10
+    Position.X = 205.000000000000000000
+    Position.Y = 187.000000000000000000
+  end
+  object NumEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 11
+    Position.X = 228.000000000000000000
+    Position.Y = 87.000000000000000000
+  end
+  object ToEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 12
+    Position.X = 120.000000000000000000
+    Position.Y = 251.000000000000000000
+  end
+  object NameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 13
+    Position.X = 228.000000000000000000
+    Position.Y = 117.000000000000000000
+  end
+  object SaveButton: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 315.000000000000000000
+    Size.Width = 148.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    Text = 'Save'
+    OnClick = SaveButtonClick
+  end
+  object busLabel: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 157.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = '           Enter Bus Details'
+    TabOrder = 15
+  end
+end

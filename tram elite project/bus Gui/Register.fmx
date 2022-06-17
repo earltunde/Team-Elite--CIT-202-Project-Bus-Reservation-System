@@ -1,0 +1,80 @@
+object registerForm: TregisterForm
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 367
+  ClientWidth = 325
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object UsernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 112.000000000000000000
+    Position.Y = 59.000000000000000000
+  end
+  object IdEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 112.000000000000000000
+    Position.Y = 104.000000000000000000
+  end
+  object DepartmentEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 128.000000000000000000
+    Position.Y = 146.000000000000000000
+  end
+  object PasswordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 112.000000000000000000
+    Position.Y = 192.000000000000000000
+  end
+  object UserNameLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 32.000000000000000000
+    Position.Y = 64.000000000000000000
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Username'
+    TabOrder = 4
+  end
+  object IdLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 32.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'ID'
+    TabOrder = 5
+  end
+  object DepartmentLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 32.000000000000000000
+    Position.Y = 146.000000000000000000
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Department'
+    TabOrder = 6
+  end
+  object PasswordLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 32.000000000000000000
+    Position.Y = 192.000000000000000000
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Password'
+    TabOrder = 7
+  end
+  object SubmitButton: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Submit'
+    OnClick = SubmitButtonClick
+  end
+end

@@ -1,0 +1,92 @@
+object ReserveForm: TReserveForm
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 351
+  ClientWidth = 502
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object BusNumLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 84.000000000000000000
+    Size.Width = 147.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Bus Number:'
+    TabOrder = 2
+  end
+  object PassengerLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 149.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Enter Passenger'#39's Name:'
+    TabOrder = 1
+  end
+  object BusNumEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 13
+    Position.X = 180.000000000000000000
+    Position.Y = 87.000000000000000000
+    object successLabel: TLabel
+      Position.X = -108.000000000000000000
+      Position.Y = 184.000000000000000000
+      Size.Width = 269.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+    end
+  end
+  object SeatNumEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 12
+    Position.X = 180.000000000000000000
+    Position.Y = 117.000000000000000000
+  end
+  object SeatLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 114.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    Text = 'Seat Number:'
+    TabOrder = 0
+  end
+  object PassengerEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 11
+    Position.X = 252.000000000000000000
+    Position.Y = 147.000000000000000000
+  end
+  object SaveButton: TButton
+    Position.X = 180.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    Text = 'Save'
+    OnClick = SaveButtonClick
+  end
+  object pasengerLabel: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 159.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 202.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = '    Passenger Details '
+    TabOrder = 16
+  end
+end
